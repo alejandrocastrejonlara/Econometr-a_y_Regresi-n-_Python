@@ -46,3 +46,9 @@ Este repositorio consolida un portafolio de análisis econométrico empírico y 
 *   **Variables Instrumentales y SUR:** Corrección del sesgo por simultaneidad en decisiones financieras mediante precios de acciones como instrumentos (2SLS / 3SLS) y modelado de sistemas de ecuaciones interdependientes (SUR) considerando restricciones presupuestarias.
 *   **Econometría de Panel y EIV:** Contraste empírico de Modelos de Efectos Fijos (FE) y Efectos Aleatorios (RE) mediante el test de Hausman, sumado a la simulación visual y econométrica de Errores de Medición (EIV) para estimar primas de riesgo en portafolios.
 *   **Análisis Predictivo de Vivienda:** Incorporación de un dataset real de más de 76,000 registros (2015-2024) sobre créditos hipotecarios en México. Implementación de visualizaciones interactivas y preparación del entorno para predecir el comportamiento crediticio usando validación cruzada y métricas de error (MSE).
+
+### 5. Pipeline Predictivo y EDA Interactivo de Créditos Hipotecarios
+**Archivo:** `Reporte_5_Predictivo_Vivienda_v2.ipynb`
+*   **Gestión de Datos:** Ingesta del dataset de créditos de vivienda asegurada, tratamiento de valores nulos y eliminación de registros duplicados garantizando una base íntegra de 76,526 observaciones.
+*   **Visualización Interactiva (EDA):** Desarrollo de histogramas dinámicos con `Plotly` para analizar las distribuciones de variables clave, como los plazos de crédito en meses.
+*   **Configuración del Entorno ML:** Preparación del pipeline integrando librerías de regresión y validación de `scikit-learn` junto con los estimadores estructurales de `linearmodels` (IV/Panel) para entrenamiento y prueba.
