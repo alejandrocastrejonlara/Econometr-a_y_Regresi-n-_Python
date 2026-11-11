@@ -15,13 +15,11 @@ Este repositorio consolida un portafolio de análisis econométrico empírico y 
 ## Estructura del Repositorio
 
 
+  
 ### 0. Fundamentos del Aprendizaje Supervisado y Regresión Simple
 **Archivo:** `Reporte_0_Regresion_Lineal_Simple.ipynb`
 *   **Marco Teórico:** Introducción a la arquitectura del aprendizaje supervisado, definiendo el mapeo de variables independientes hacia variables de respuesta.
 *   **Regresión Lineal Simple (RLS):** Implementación paso a paso de estimaciones de una sola variable, sirviendo como fundamento matemático y programático para los modelos múltiples y avanzados posteriores.
-
-*   # Análisis Econométrico y Modelado de Regresión en Python
-
   
 ### 1. Regresión Lineal Múltiple y Validación Básica
 **Archivo:** `Reporte_1_Regresion_Lineal_Multiple.ipynb`
